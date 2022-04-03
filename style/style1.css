@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+.nav {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: rgba(196, 196, 196, 0.07);
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.nav1 {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+div {
+  display: inline-block;
+}
+.MAT {
+  font-size: 18px;
+  margin-top: 25px;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.Logo {
+  height: 75px;
+}
+.cotceti {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11px;
+}
+.cotcet {
+  height: 45px;
+}
+.CW {
+  width: 50%;
+  height: 45px;
+  padding-top: 12px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.CWPS {
+  margin-top: 11px;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.PS {
+  width: 45%;
+  height: 45px;
+  padding-top: 12px;
+  text-align: center;
+  border-radius: 5px;
+  background: #935243;
+}
+.nazvanie {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 12%;
+  margin-left: 44%;
+}
+.nazvanie2 {
+  height: 30px;
+  margin-top: 22px;
+}
+.nazvanie1 {
+  height: 80px;
+}
+.Fon1 {
+  background-image: url(../image/Фон1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 140vh;
+}
+.nav-bottom {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 69px;
+}
+.nav-b-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.img-nav-b-1 {
+  margin-top: -13px;
+}
+.Team {
+  margin-top: 100px;
+  margin-left: 15%;
+  width: 70%;
+}
+.ccilka {
+  border-bottom: rgba(255, 255, 255, 0.61) solid 3px;
+}
+@media (max-width: 1360px) {
+  .nav1 {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .nav-bottom {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .knopka3 {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .BEP {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .nav-bottom {
+    display: block;
+    text-align: center;
+    margin-bottom: -500;
+  }
+  .p-nav-b {
+    text-align: center;
+    display: block;
+  }
+  .nav-b-2 {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -80px;
+  }
+  .Fon1 {
+    height: 100vh;
+  }
+  .nav {
+    display: block;
+  }
+  .MAT {
+    margin-top: 107px;
+    position: absolute;
+    height: 45px;
+    width: 30%;
+    margin-left: 35%;
+  }
+  .CWPS {
+    position: absolute;
+    margin-left: 25%;
+    width: 30%;
+  }
+  .cotceti {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .nav-b-2 {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .CWPS {
+    width: 40%;
+    margin-left: 13%;
+  }
+  .cotceti {
+    width: 40%;
+  }
+  .MAT {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 570px) {
+  .nav1 {
+    margin-left: 2%;
+    width: 96%;
+  }
+  .nazvanie {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 140px;
+  }
+  .CW {
+    width: 55%;
+  }
+  .Logo {
+    height: 37px;
+  }
+  .cotcet {
+    height: 30px;
+  }
+  .cotceti {
+    width: 30%;
+  }
+  .CWPS {
+    width: 57%;
+    margin-left: 10%;
+  }
+  .CW {
+    height: 30px;
+    padding-top: 5px;
+  }
+  .PS {
+    height: 30px;
+    padding-top: 5px;
+  }
+  .Fon1 {
+    height: 75vh;
+  }
+  .nav-b-2 {
+    width: 96%;
+    margin-left: 2%;
+  }
+  .nazvanie1 {
+    display: none;
+  }
+  .nazvanie {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 140px;
+  }
+  .nazvanie2 {
+    width: 60%;
+    margin-left: 20%;
+    height: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .MAT {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 930px) {
+  .nazvanie {
+    width: 42%;
+    margin-left: 29%;
+  }
+}
+@media (max-width: 768px) {
+  .nazvanie {
+    width: 48%;
+    margin-left: 26%;
+  }
+}
+@media (max-width: 1240px) {
+  .nazvanie {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .nazvanie {
+    width: 18%;
+    margin-left: 41%;
+  }
+}
+@media (max-width: 1370px) {
+  .nazvanie {
+    width: 27%;
+    margin-left: 36.5%;
+  }
+}
+.image2 {
+  width: 0%;
+}
+@media (max-width: 1440px) {
+  .Team{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1024px) {
+  .nazvanie {
+    margin-top: 180px;
+    width: 35%;
+    margin-left: 32.5;
+  }
+  .Team{margin-top: 0px;
+  width: 98%;
+margin-left: 1%;}
+}
+@media (max-width: 768px) {
+  .Team{width: 0;}
+  .image2{width: 50%;
+  margin-left: 25%;}
+}
+@media (max-width: 570px){
+  .image2{width: 70%;
+  margin-left: 15%;}
+}
+@media (max-width: 420px){
+  .nazvanie2{
+    margin-left: 0;
+    width: 100%;
+  }
+
+.image2{margin-top: 0px;
+  width: 90%;
+margin-left: 5%;}
+}
+@media (max-width: 360px) {
+  @media (max-width: 360px) {
+    .nav1 {
+      width: 99%;
+      margin-left: 0;
+    }
+    .cotcet{
+      height: 20px;
+    }
+    .p-CW{font-size: 14px;}
+    .p-PS{font-size: 15px;}
+    .PS{margin-left: 1%;}
+    .CWPS{margin-left: 11%;}
+  }
+}
